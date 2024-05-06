@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midjourney Prompt Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form">
+        <h1>Midjourney Prompt Template</h1>
+
+        <section>
+            <h2>Camera Shot</h2>
+            <select id="camera-shot">
+                <option value="Portrait">Portrait</option>
+                <option value="Close Up Shot">Close Up Shot</option>
+                <option value="Wide Angle Shot">Wide Angle Shot</option>
+                <option value="Aerial View">Aerial View</option>
+                <option value="Selfie">Selfie</option>
+                <option value="Top View">Top View</option>
+                <option value="Full Shot">Full Shot</option>
+                <option value="Medium Shot">Medium Shot</option>
+                <option value="Extreme Close-up">Extreme Close-up</option>
+                <option value="Low Angle Shot">Low Angle Shot</option>
+                <option value="High Angle Shot">High Angle Shot</option>
+                <option value="Landscape Shot">Landscape Shot</option>
+                <option value="Rule of Thirds Composition">Rule of Thirds Composition</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Image Description</h2>
+            <input type="text" id="brief-box" placeholder="Write a brief description about Object, Action and Surrounding">
+            <input type="text" id="object-box" placeholder="Describe the Object">
+            <input type="text" id="action-box" placeholder="Describe the Action">
+            <input type="text" id="surrounding-box" placeholder="Describe the Surrounding">
+            <input type="text" id="vibe-box" placeholder="Describe the vibe">
+        </section>
+
+        <section>
+            <h2>Image Styling</h2>
+            <div class="container">
+            
+            <div class="inner-container">
+                <div id="styling-options">
+                    <input type="checkbox" id="realistic" value="Realistic">
+                    <label for="realistic">Realistic</label><br>
+                    <input type="checkbox" id="cinematic" value="Cinematic">
+                    <label for="cinematic">Cinematic</label><br>
+                    <input type="checkbox" id="photograph" value="Photograph">
+                    <label for="photograph">Photograph</label><br>                
+                    <input type="checkbox" id="35mm" value="35mm">
+                    <label for="35mm">35mm</label><br>       
+                    <input type="checkbox" id="3D_Pixar" value="3D Pixar">
+                    <label for="3D_Pixar">3D Pixar</label><br>       
+                    <input type="checkbox" id="Pencil_Sketch" value="Pencil Sketch">
+                    <label for="Pencil_Sketch">Pencil Sketch</label><br>       
+                    <input type="checkbox" id="Comic_Style" value="Comic Style">
+                    <label for="Comic_Style">Comic Style</label><br>      
+                    <input type="checkbox" id="Cinema4D_Style" value="Cinema 4D Style">
+                    <label for="Cinema4D_Style">Cinema 4D Style</label><br> 
+                    <input type="checkbox" id="Minimalist" value="Minimalist">
+                    <label for="Minimalist">Minimalist</label><br> 
+                    <input type="checkbox" id="Nikon800Camera" value="Nikon 800 Camera">
+                    <label for="Nikon800Camera">Nikon 800 Camera</label><br> 
+                    <input type="checkbox" id="DigitalIllustration" value="Digital Illustration">
+                    <label for="DigitalIllustration">Digital Illustration</label><br> 
+                </div>
+            </div>
+
+            <div class="inner-container">
+                <div id="styling-options">
+                    <input type="checkbox" id="renaissancePainting" value="Renaissance Painting">
+                    <label for="renaissancePainting">Renaissance Painting</label><br>
+
+                    <input type="checkbox" id="medieval_woodcut" value="Medieval Woodcut">
+                    <label for="medieval_woodcut">Medieval Woodcut</label><br>
+
+                    <input type="checkbox" id="Long_Exposure" value="Long Exposure">
+                    <label for="Long_Exposure">Long Exposure</label><br>         
+
+                    <input type="checkbox" id="Exaggerated_Caricature" value="Exaggerated Caricature">
+                    <label for="Exaggerated_Caricature">Exaggerated Caricature</label><br>       
+
+                    <input type="checkbox" id="One_Line_Drawing" value="One Line Drawing">
+                    <label for="One_Line_Drawing">One Line Drawing</label><br>       
+
+                    <input type="checkbox" id="Hyper_Detailed" value="Hyper Detailed">
+                    <label for="Hyper_Detailed">Hyper Detailed</label><br>  
+                    
+                    <input type="checkbox" id="Pointillism_Technique" value="Pointillism Technique">
+                    <label for="Pointillism_Technique">Pointillism Technique</label><br>  
+
+                    <input type="checkbox" id="Art_Deco_Poster" value="Art Deco Poster">
+                    <label for="Art_Deco_Poster">Art Deco Poster</label><br>  
+
+                    <input type="checkbox" id="4K_Photo-Real" value="4K Photo-Real">
+                    <label for="4K_Photo-Real">4K Photo-Real</label><br>  
+                </div>
+            </div>
+
+                <!-- Add more checkbox options here -->
+            </div>
+        </section>
+
+<section>
+
+    <h2>Lighting Options</h2>
+    <select id="lighting-options">
+        <option value="Morning">Morning</option>
+        <option value="Noon">Noon</option>
+        <option value="Golden Hour">Golden Hour</option>
+        <option value="Sunny">Sunny</option>
+        <option value="Overcast">Overcast</option>
+        <option value="Natural Lighting">Natural Lighting</option>
+        <option value="Light From Behind">Light From Behind</option>
+        <option value="Silhouette">Silhouette</option>
+        <option value="Dusk">Dusk</option>
+        <option value="Foggy">Foggy</option>
+        <option value="Warm Light">Warm Light</option>
+        <option value="Cinematic Lighting">Cinematic Lighting</option>
+        <option value="Mixed lighting">Mixed lighting</option>
+    </select>
+
+            
+</section>
+
+<section>
+        <h2>Parameters</h2>
+        <input type="text" id="parameters-box" placeholder="Type all parameters here">
+</section>
+
+        <button type="submit">Submit</button>
+ 
+        <div id="display-info"></div>
+        <button id="copy-btn">Copy to Clipboard</button>
+</form>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

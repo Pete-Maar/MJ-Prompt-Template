@@ -1,0 +1,122 @@
+/* Form styling */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+.cutive-mono-regular {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Cutive Mono", monospace;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+form {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inner-container {
+    width: 48%;
+    background-color: #fdfafa;
+    box-sizing: border-box;
+    margin: 1%;
+    line-height: 1.8;
+
+}
+
+@media (max-width: 768px) {
+.inner-container {
+    width: 98%;
+}
+}
+
+
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: grey;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    margin: 0 auto;
+    width: 95%;
+    padding: 2%;
+    text-align: left;
+    margin-top: 0;
+    min-height: 24px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"],
+#copy-btn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #a5a3a3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover,
+#copy-btn:hover {
+    background-color: #343434;
+}
+
+/* Display info styling */
+#display-info {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Checkbox options styling */
+#styling-options {
+    margin-top: 10px;
+}
+
+/* Dropdown Menu */
+select#camera-shot, #lighting-options {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#styling-options input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#styling-options label {
+    margin-right: 15px;
+}
